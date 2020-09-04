@@ -10,13 +10,13 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Redirect exact from='/' to='/dev' />
-        <Route exact path='/dev' component={Dev} />
-        <Route exact path='/blog' component={Blog} />
-        <Route exact path='/project' component={Project} />
-        <Route exact path='/contact' component={Contact} />
-        <Route path='/404' component={NotFound} />
-        <Redirect from='*' to='/404' />
+        <Redirect exact from="/" to="/dev" />
+        <Route exact path="/dev" component={Dev} />
+        <Route exact path="/blog" component={Blog} />
+        <Route exact path="/project" component={Project} />
+        <Route exact path="/contact" component={Contact} />
+        <Route path="/404" component={NotFound} />
+        <Redirect from="*" to="/404" />
       </Switch>
     </BrowserRouter>
   );
