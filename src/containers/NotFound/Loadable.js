@@ -5,7 +5,7 @@ const NotFound = lazy(() => import('./index'));
 
 const NotFoundLoadable = () => (
   <Suspense fallback={<Loading />}>
-   <NotFound />
+    <NotFound />
   </Suspense>
 );
 

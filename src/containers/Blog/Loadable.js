@@ -5,7 +5,7 @@ const Dev = lazy(() => import('./index'));
 
 const BlogLoadable = () => (
   <Suspense fallback={<Loading />}>
-   <Dev />
+    <Dev />
   </Suspense>
 );
 

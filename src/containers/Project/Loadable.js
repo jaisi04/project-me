@@ -5,7 +5,7 @@ const Project = lazy(() => import('./index'));
 
 const ProjectLoadable = () => (
   <Suspense fallback={<Loading />}>
-   <Project />
+    <Project />
   </Suspense>
 );
 

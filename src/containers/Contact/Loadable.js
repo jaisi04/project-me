@@ -5,7 +5,7 @@ const Contact = lazy(() => import('./index'));
 
 const ContactLoadable = () => (
   <Suspense fallback={<Loading />}>
-   <Contact />
+    <Contact />
   </Suspense>
 );
 
