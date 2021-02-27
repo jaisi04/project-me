@@ -11,7 +11,7 @@ const Wrapper = styled.div`
 `;
 
 const Loading = () => {
-  return <Wrapper>Fetching page info...!</Wrapper>;
+  return <Wrapper>Preparing screen!</Wrapper>;
 };
 
 export default Loading;
