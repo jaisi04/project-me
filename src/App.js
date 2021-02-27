@@ -11,6 +11,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Redirect exact from="/" to="/dev" />
+        <Redirect exact from="/project-me" to="/dev" />
         <Route exact path="/dev" component={Dev} />
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/project" component={Project} />
