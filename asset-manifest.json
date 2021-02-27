@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/project-me/static/css/main.dd0f04be.chunk.css",
+    "main.js": "/project-me/static/js/main.bbc0461f.chunk.js",
+    "main.js.map": "/project-me/static/js/main.bbc0461f.chunk.js.map",
+    "runtime-main.js": "/project-me/static/js/runtime-main.6db250fa.js",
+    "runtime-main.js.map": "/project-me/static/js/runtime-main.6db250fa.js.map",
+    "static/js/2.22e65430.chunk.js": "/project-me/static/js/2.22e65430.chunk.js",
+    "static/js/2.22e65430.chunk.js.map": "/project-me/static/js/2.22e65430.chunk.js.map",
+    "static/js/3.900b099d.chunk.js": "/project-me/static/js/3.900b099d.chunk.js",
+    "static/js/3.900b099d.chunk.js.map": "/project-me/static/js/3.900b099d.chunk.js.map",
+    "static/js/4.d4b4a1d5.chunk.js": "/project-me/static/js/4.d4b4a1d5.chunk.js",
+    "static/js/4.d4b4a1d5.chunk.js.map": "/project-me/static/js/4.d4b4a1d5.chunk.js.map",
+    "static/js/5.adc138a3.chunk.js": "/project-me/static/js/5.adc138a3.chunk.js",
+    "static/js/5.adc138a3.chunk.js.map": "/project-me/static/js/5.adc138a3.chunk.js.map",
+    "static/js/6.18cf2ff9.chunk.js": "/project-me/static/js/6.18cf2ff9.chunk.js",
+    "static/js/6.18cf2ff9.chunk.js.map": "/project-me/static/js/6.18cf2ff9.chunk.js.map",
+    "static/js/7.2aa72e78.chunk.js": "/project-me/static/js/7.2aa72e78.chunk.js",
+    "static/js/7.2aa72e78.chunk.js.map": "/project-me/static/js/7.2aa72e78.chunk.js.map",
+    "index.html": "/project-me/index.html",
+    "precache-manifest.9735dfa887f3cce27b836c1b435d662f.js": "/project-me/precache-manifest.9735dfa887f3cce27b836c1b435d662f.js",
+    "service-worker.js": "/project-me/service-worker.js",
+    "static/css/main.dd0f04be.chunk.css.map": "/project-me/static/css/main.dd0f04be.chunk.css.map",
+    "static/js/2.22e65430.chunk.js.LICENSE.txt": "/project-me/static/js/2.22e65430.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6db250fa.js",
+    "static/js/2.22e65430.chunk.js",
+    "static/css/main.dd0f04be.chunk.css",
+    "static/js/main.bbc0461f.chunk.js"
+  ]
+}
