@@ -13,16 +13,17 @@ import { NavWrapper, StyledLink } from './Skins';
 const Nav = ({ location }) => {
   const currentPath = location.pathname;
   const navData = [
-    { url: URL_BLOG, name: 'Blogs' },
-    { url: URL_PROJECT, name: 'Projects' },
-    { url: URL_DEV, name: 'About me' },
-    { url: URL_CONTACT, name: 'Contact' },
-    { url: URL_TRIBUTE, name: 'Tribute of the week' },
+    { url: URL_BLOG, name: 'Blogs', icon: 'article' },
+    { url: URL_PROJECT, name: 'Projects', icon: 'engineering' },
+    { url: URL_DEV, name: 'About me', icon: 'person' },
+    { url: URL_CONTACT, name: 'Contact', icon: 'mail' },
+    { url: URL_TRIBUTE, name: 'Tribute', icon: 'stars' },
   ];
   return (
     <NavWrapper>
-      {navData.map(({ url, name }) => (
+      {navData.map(({ url, name, icon }) => (
         <StyledLink key={name} to={url} active={currentPath === url}>
+          <i className="material-icons">{icon}</i>
           {name}
         </StyledLink>
       ))}
