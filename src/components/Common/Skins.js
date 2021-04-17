@@ -10,8 +10,8 @@ export const NavWrapper = styled.section`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-between;
-  @media (max-width: 640px) {
+  justify-content: space-evenly;
+  @media (max-width: 680px) {
     flex-direction: column;
   }
 `;
@@ -29,7 +29,7 @@ export const StyledLink = styled(Link)`
     text-decoration: ${(props) => (props.active ? 'underline' : 'none')};
     margin-right: 4px;
   }
-  @media (max-width: 640px) {
+  @media (max-width: 680px) {
     width: 100%;
     flex-direction: row;
   }
