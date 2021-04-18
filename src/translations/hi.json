@@ -4,7 +4,7 @@
   "app.components.common.header.about_me" : "मेरे बारे मेँ",
   "app.components.common.header.contact" : "संपर्क करें",
   "app.components.common.header.tribute" : "शुक्रिया",
-  "app.components.common.change_language_label" : "वर्तमान भाषा: ",
+  "app.components.common.change_language_label" : "वर्तमान भाषा:",
   "app.components.common.language_en" : "अंग्रेज़ी",
   "app.components.common.language_hi" : "हिंदी"
 }

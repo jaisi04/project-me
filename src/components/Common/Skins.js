@@ -37,10 +37,17 @@ export const StyledLink = styled(Link)`
   }
 `;
 
-export const StyledLabel = styled.label`
+export const StyledLangWrapper = styled.section`
+  display: flex;
+  flex-wrap: wrap;
   margin-left: 8px;
+  align-items: center;
+`;
+
+export const StyledLabel = styled.label`
   color: ${COLOR_BLUE};
   font-size: 16px;
+  margin-right: 4px;
 `;
 
 export const StyledSelect = styled.select`
