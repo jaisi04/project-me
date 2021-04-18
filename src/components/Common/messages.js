@@ -24,7 +24,7 @@ export default defineMessages({
   },
   changeLanguageLabel: {
     id: `${scope}.change_language_label`,
-    defaultMessage: 'The current language is: ',
+    defaultMessage: 'The current language is:',
   },
   languageHindi: {
     id: `${scope}.language_hi`,

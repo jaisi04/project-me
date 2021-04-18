@@ -2,14 +2,14 @@ import React, { useContext } from 'react';
 import { useIntl } from 'react-intl';
 import { Context } from '../../LanguageProvider';
 import messages from './messages';
-import { StyledLabel, StyledSelect } from './Skins';
+import { StyledLangWrapper, StyledLabel, StyledSelect } from './Skins';
 
 const ChangeLanguage = () => {
   const context = useContext(Context);
   const { formatMessage } = useIntl();
   const { changeLanguageLabel, languageEnglish, languageHindi } = messages;
   return (
-    <section>
+    <StyledLangWrapper>
       <StyledLabel htmlFor="changeLanguage">
         {formatMessage(changeLanguageLabel)}
       </StyledLabel>
@@ -21,7 +21,7 @@ const ChangeLanguage = () => {
         <option value="en">{formatMessage(languageEnglish)}</option>
         <option value="hi">{formatMessage(languageHindi)}</option>
       </StyledSelect>
-    </section>
+    </StyledLangWrapper>
   );
 };
 
