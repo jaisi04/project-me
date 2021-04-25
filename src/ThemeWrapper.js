@@ -16,7 +16,7 @@ const ThemeWrapper = (props) => {
     isError,
   } = useFirestore('themes', 'name');
   const localTheme = localStorage.getItem('theme');
-  const [theme, setTheme] = useState(localTheme);
+  const [theme, setTheme] = useState(localTheme || 'dark');
   const [colors, setColors] = useState(defaultColors);
 
   function selectTheme(e) {
