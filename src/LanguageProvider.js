@@ -14,8 +14,11 @@ const localeMessages = {
 };
 
 const LanguageProvider = (props) => {
-  const [locale, setLocale] = useState(language);
-  const [messages, setMessages] = useState(localeMessages[language]);
+  const localLanguage = localStorage.getItem('lang');
+  const [locale, setLocale] = useState(localLanguage || language);
+  const [messages, setMessages] = useState(
+    localeMessages[localLanguage] || localeMessages[language]
+  );
 
   function selectLanguage(e) {
     const newLocale = e.target.value;
@@ -25,6 +28,7 @@ const LanguageProvider = (props) => {
     } else {
       setMessages(locale_hi);
     }
+    localStorage.setItem('lang', newLocale);
   }
 
   return (

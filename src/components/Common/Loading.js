@@ -13,7 +13,7 @@ const Wrapper = styled.div`
 
 const Loading = () => {
   const { colors } = useContext(ThemeContext);
-  return <Wrapper colors={colors}>Preparing screen!</Wrapper>;
+  return <Wrapper colors={colors}>Preparing screen...</Wrapper>;
 };
 
 export default Loading;
