@@ -4,7 +4,7 @@ import { IntlProvider } from 'react-intl';
 import locale_hi from './translations/hi.json';
 import locale_en from './translations/en.json';
 
-export const Context = React.createContext();
+export const LanguageContext = React.createContext();
 
 const language = navigator.language.split(/[-_]/)[0];
 
@@ -28,11 +28,11 @@ const LanguageProvider = (props) => {
   }
 
   return (
-    <Context.Provider value={{ locale, selectLanguage }}>
+    <LanguageContext.Provider value={{ locale, selectLanguage }}>
       <IntlProvider messages={messages} locale={language}>
         {props.children}
       </IntlProvider>
-    </Context.Provider>
+    </LanguageContext.Provider>
   );
 };
 
