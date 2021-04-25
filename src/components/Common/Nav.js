@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useIntl } from 'react-intl';
 import { PropTypes } from 'prop-types';
 import { withRouter } from 'react-router-dom';
+import { ThemeContext } from '../../ThemeWrapper';
 import {
   URL_BLOG,
   URL_CONTACT,
@@ -14,6 +15,7 @@ import messages from './messages';
 
 const Nav = ({ location }) => {
   const { formatMessage } = useIntl();
+  const { colors } = useContext(ThemeContext);
   const {
     headerBlogs,
     headerProjects,
@@ -40,7 +42,12 @@ const Nav = ({ location }) => {
   return (
     <NavWrapper>
       {navData.map(({ url, name, icon }) => (
-        <StyledLink key={name} to={url} active={currentPath === url}>
+        <StyledLink
+          key={name}
+          to={url}
+          active={currentPath === url}
+          colors={colors}
+        >
           <i className="material-icons">{icon}</i>
           {name}
         </StyledLink>

@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import LanguageProvider from './LanguageProvider';
+import ThemeWrapper from './ThemeWrapper';
 
 ReactDOM.render(
   <React.StrictMode>
-    <LanguageProvider>
-      <App />
-    </LanguageProvider>
+    <ThemeWrapper>
+      <LanguageProvider>
+        <App />
+      </LanguageProvider>
+    </ThemeWrapper>
   </React.StrictMode>,
   document.getElementById('root')
 );

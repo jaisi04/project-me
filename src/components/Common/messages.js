@@ -34,4 +34,16 @@ export default defineMessages({
     id: `${scope}.language_en`,
     defaultMessage: 'English',
   },
+  changeThemeLabel: {
+    id: `${scope}.change_theme_label`,
+    defaultMessage: 'The current theme is:',
+  },
+  themeLight: {
+    id: `${scope}.theme_light`,
+    defaultMessage: 'Light',
+  },
+  themeDark: {
+    id: `${scope}.theme_dark`,
+    defaultMessage: 'Dark',
+  },
 });

@@ -1,10 +1,13 @@
 {
-  "app.components.common.header.blogs" : "Blogs",
-  "app.components.common.header.projects" : "Projects",
-  "app.components.common.header.about_me" : "About me",
-  "app.components.common.header.contact" : "Contact",
-  "app.components.common.header.tribute" : "Tribute",
-  "app.components.common.change_language_label" : "The current language is:",
-  "app.components.common.language_en" : "English",
-  "app.components.common.language_hi" : "Hindi"
+  "app.components.common.change_language_label": "The current language is:",
+  "app.components.common.change_theme_label": "The current theme is:",
+  "app.components.common.header.about_me": "About me",
+  "app.components.common.header.blogs": "Blogs",
+  "app.components.common.header.contact": "Contact",
+  "app.components.common.header.projects": "Projects",
+  "app.components.common.header.tribute": "Tribute",
+  "app.components.common.language_en": "English",
+  "app.components.common.language_hi": "Hindi",
+  "app.components.common.theme_dark": "Dark",
+  "app.components.common.theme_light": "Light"
 }

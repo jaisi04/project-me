@@ -8,7 +8,7 @@ class Contact extends Component {
       <>
         <Header />
         <h3>Hello There!</h3>
-        <h5>This page will have my contact details</h5>
+        <p>This page will have my contact details</p>
       </>
     );
   }

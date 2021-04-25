@@ -1,17 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styled from 'styled-components';
-import { COLOR_BLACK } from '../../colors';
+import { ThemeContext } from '../../ThemeWrapper';
 
 const Wrapper = styled.div`
   display: flex;
-  flex: 1;
+  height: 100vh;
   align-items: center;
   justify-content: center;
-  color: ${COLOR_BLACK};
+  color: ${(props) => props.colors.text};
+  background-color: ${(props) => props.colors.body};
 `;
 
 const Loading = () => {
-  return <Wrapper>Preparing screen!</Wrapper>;
+  const { colors } = useContext(ThemeContext);
+  return <Wrapper colors={colors}>Preparing screen!</Wrapper>;
 };
 
 export default Loading;

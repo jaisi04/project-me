@@ -8,7 +8,7 @@ class Tribute extends Component {
       <>
         <Header />
         <h3>Hello There!</h3>
-        <h5>This page will have my weekly tributes</h5>
+        <p>This page will have my weekly tributes</p>
       </>
     );
   }
